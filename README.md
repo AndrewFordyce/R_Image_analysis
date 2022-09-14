@@ -5,6 +5,7 @@ This R code allows for the automated pixel luminance extraction from .BMP images
 Built under RStudio version 2022.07.01. 554 and R version 4.2.1
 
 Instructions:
+
 1 Ensure working directory is set correctly
 
 2 Ensure required libraries are installed and loaded (Imager, dplyr, bmp, tidyverse, readr, tibble)
