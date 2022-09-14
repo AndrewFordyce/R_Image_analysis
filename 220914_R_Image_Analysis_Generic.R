@@ -2,9 +2,8 @@
 setwd("Working directory")
 
 #ensure libraries are loaded
-library(magick)
+
 library(dplyr)
-library(ggplot2)
 library(imager)
 library(bmp)
 library(OpenImageR)
@@ -13,7 +12,7 @@ library(readr)
 library(tibble)
 
 
-#note, change 'PATH' variable to folder where images are from first
+?#note, change 'PATH' variable to folder where images are from first
 #seperate directory into sections e.g. C:/Users/User/Desktop would become "C:", "Users", "User" "Desktop", fsep ="/"
 PATH <- file.path("C:", "Users", "...", 
                   fsep = "/")
