@@ -2,9 +2,7 @@
 setwd("Working directory")
 
 #ensure libraries are loaded
-library(magick)
 library(dplyr)
-library(ggplot2)
 library(imager)
 library(bmp)
 library(OpenImageR)
